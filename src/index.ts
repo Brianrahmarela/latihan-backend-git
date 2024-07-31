@@ -43,8 +43,8 @@ app.post('/orders', (req: Request, res: Response) => {
     res.send('Order created');
 });
 
-// Endpoint untuk mendapatkan semua order
-app.get('/orders', (req: Request, res: Response) => {
-    // Logika untuk mendapatkan semua order
-    res.send('List of orders');
+// Endpoint untuk mendapatkan semua produk
+app.get('/products', (req: Request, res: Response) => {
+    // Logika untuk mendapatkan semua produk
+    res.send('List of products');
 });
